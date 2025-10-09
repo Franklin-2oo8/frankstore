@@ -80,8 +80,25 @@ button:hover{
   background-color: black;
   color: white;
 }
-
-
+#cart{
+  border-radius: 50%;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+#aa{
+  text-decoration: nnone
+font-family: cursive;
+}
+#aa:hover{
+  background-color: white
+}
+#cart:hover{
+  border-radius: 0%;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}  
 
 
 
