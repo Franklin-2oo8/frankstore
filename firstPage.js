@@ -231,3 +231,307 @@ function checkout(){
   document.getElementById("byy").innerHTML= ""
 
 };
+
+function r1(){
+  if ( count === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price-= 46000
+  count -=1
+  cartCount -=1
+  cartTotal -= 46000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy").innerHTML = "Tecno pop 6 go: " + count + "{ ₦" + price +" }";
+  
+  alert("Tecno pop6 go removed");
+  if ( count === 0){
+    document.getElementById("byy").innerHTML = ""
+    return;
+  }
+}
+
+function r2(){
+  if ( count2 === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price2-= 6000
+  count2 -=1
+  cartCount -=1
+  cartTotal -= 6000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy2").innerHTML = "plastic party utensil set: " + count2 + "{ ₦" + price2 +" }";
+  
+  alert(" plastic party utensil set removed");
+  if ( count2 === 0){
+    document.getElementById("byy2").innerHTML = ""
+    return;
+  }
+}
+
+function r3(){
+  if ( count3 === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price3-= 2200000
+  count3 -=1
+  cartCount -=1
+  cartTotal -= 2200000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy3").innerHTML = "Iphone 17: " + count3 + "{ ₦" + price3 +" }";
+  
+  alert("Iphone 17  removed");
+  if ( count3 === 0){
+    document.getElementById("byy3").innerHTML = ""
+    return;
+  }
+}
+
+
+
+function r4(){
+  if ( count4 === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price4-= 18000
+  count4 -=1
+  cartCount -=1
+  cartTotal -= 18000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy4").innerHTML = "Swaggy up and down: " + count4 + "{ ₦" + price4 +" }";
+  
+  alert("Swaggy up and down removed");
+  if ( count4 === 0){
+    document.getElementById("byy4").innerHTML = ""
+    return;
+  }
+}
+
+function r5(){
+  if ( count5 === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price5-= 15000
+  count5 -=1
+  cartCount -=1
+  cartTotal -= 15000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy5").innerHTML = "Airpod A3t: " + count5 + "{ ₦" + price5 +" }";
+  
+  alert(" Airpod A3t  removed");
+  if ( count5 === 0){
+    document.getElementById("byy5").innerHTML = ""
+    return;
+  }
+}
+
+function r6(){
+  if ( count6 === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price6-= 25000
+  count6 -=1
+  cartCount -=1
+  cartTotal -= 25000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy6").innerHTML = "portable rechargeable mini fan: " + count6 + "{ ₦" + price6 +" }";
+  
+  alert("portable rechargeable mini fan  removed");
+  if ( count6 === 0){
+    document.getElementById("byy6").innerHTML = ""
+    return;
+  }
+}
+
+function r7(){
+  if ( count7 === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price7-= 75000
+  count7 -=1
+  cartCount -=1
+  cartTotal -= 75000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy7").innerHTML = "Electric Blender: " + count7 + "{ ₦" + price7 +" }";
+  
+  alert("Electric Blender removed");
+  if ( count7 === 0){
+    document.getElementById("byy7").innerHTML = ""
+    return;
+  }
+}
+
+function r8(){
+  if ( count8 === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price8-= 45000
+  count8 -=1
+  cartCount -=1
+  cartTotal -= 45000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy8").innerHTML = "Electric Cooker: " + count8 + "{ ₦" + price8 +" }";
+  
+  alert(" Electric Cooker removed");
+  if ( count8 === 0){
+    document.getElementById("byy8").innerHTML = ""
+    return;
+  }
+}
+
+function r9(){
+  if ( count9 === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price9-= 40000
+  count9 -=1
+  cartCount -=1
+  cartTotal -= 40000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy9").innerHTML = "portable rechargeable mini fan: " + count9 + "{ ₦" + price9 +" }";
+  
+  alert("Children toy car removed");
+  if ( count9 === 0){
+    document.getElementById("byy9").innerHTML = ""
+    return;
+  }
+}
+
+
+
+function r10(){
+  if ( count10 === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price10-= 20000
+  count10 -=1
+  cartCount -=1
+  cartTotal -= 20000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy10").innerHTML = "Flower Vase: " + count10 + "{ ₦" + price10 +" }";
+  
+  alert("Flower Vase removed");
+  if ( count10 === 0){
+    document.getElementById("byy10").innerHTML = ""
+    return;
+  }
+}
+
+function r11(){
+  if ( count11 === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price11-= 60000
+  count11 -=1
+  cartCount -=1
+  cartTotal -= 60000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy11").innerHTML = "Electric Guitar: " + count11 + "{ ₦" + price11 +" }";
+  
+  alert(" Electric Guitar  removed");
+  if ( count11 === 0){
+    document.getElementById("byy11").innerHTML = ""
+    return;
+  }
+}
+
+function r12(){
+  if ( count12 === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price12-= 40000
+  count12 -=1
+  cartCount -=1
+  cartTotal -= 40000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy12").innerHTML = "complete set cups and plates : " + count12 + "{ ₦" + price12 +" }";
+  
+  alert("complete set cups and plates   removed");
+  if ( count12 === 0){
+    document.getElementById("byy12").innerHTML = ""
+    return;
+  }
+}
+
+function r13(){
+  if ( count13 === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price13-= 120000
+  count13 -=1
+  cartCount -=1
+  cartTotal -= 120000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy13").innerHTML = "15.6 inch LCD TV: " + count13 + "{ ₦" + price13 +" }";
+  
+  alert("15.6 Inch LCD TV removed ");
+  if ( count13 === 0){
+    document.getElementById("byy13").innerHTML = ""
+    return;
+  }
+}
+
+function r14(){
+  if ( count14 === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price14-= 2600000
+  count14 -=1
+  cartCount -=1
+  cartTotal -= 2600000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy14").innerHTML = "Samsung s25 ultra: " + count14 + "{ ₦" + price14 +" }";
+  
+  alert(" Samsung s25 ultra removed");
+  if ( count14 === 0){
+    document.getElementById("byy14").innerHTML = ""
+    return;
+  }
+}
+
+function r15(){
+  if ( count15 === 0){
+    alert("this item is not in cart");
+    return;
+  }
+  price15-= 500000
+  count15 -=1
+  cartCount -=1
+  cartTotal -= 500000
+  document.getElementById("cartTotal").innerHTML = cartTotal ;
+  document.getElementById("cartCount").innerHTML = cartCount ;
+  document.getElementById("byy15").innerHTML = "HP laptop  " + count15 + "{ ₦" + price15 +" }";
+  
+  alert("HP laptop removed");
+  if ( count15 === 0){
+    document.getElementById("byy15").innerHTML = ""
+    return;
+  }
+}

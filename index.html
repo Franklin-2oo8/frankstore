@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="firstPage.css">
     <title>Frank Store</title>
   </head>
-  <body>
+  <body id="body">
   <span id="discount">High discount items</span>
   <br>
  <button id="cart"> <a href="#hy" id="aa">Cart</a>
@@ -14,77 +14,122 @@
   <div>
     <img src="Tecno.jpeg" alt="mobile phone"><br>
     Tecno pop6 go<br><button onclick="tecno()">click to see description</button><br>
-    <button onclick="add1('Tecno pop 6 go',46000); ok();" id="add1">₦ 46000 Add to cart</button>
+    <button onclick="add1('Tecno pop 6 go',46000); ok();" id="add1">₦ 46000 Add to cart</button><br>
+    <button class="remove" id="r1"  onclick="r1()">
+      Remove from cart
+    </button>
   </div>
   <div>
     <img src="Cups.jpeg" alt="Cups"><br>
     plastic party utensil set<br><button onclick="cup()">click to see description</button><br>
     <button onclick="add1('plastic party utensil set',6000); ok2();" id="add1"> ₦6000 Add to cart</button>
+      <button class="remove"  id="r2" onclick="r2()">
+      Remove from cart
+    </button>
   </div>
   <div>
     <img src="Iphone 17.jpeg" alt="Iphone 17"><br>
     Iphone 17<br><button onclick="Iphone()">click to see description</button><br>
     <button onclick="add1('Iphone 17',2200000);ok3();" id="add1">₦2,200,000 Add to cart</button>
+      <button class="remove" id="r3" onclick="r3()">
+      Remove from cart
+    </button>
   </div>
   <div>
     <img src="Clothes.jpeg" alt="Clothes"><br>
     swagy up and down<br><button onclick="cloth()">click to see description</button><br>
     <button onclick="add1('swagy up and down cloth',18000);ok4();" id="add1">₦ 18000 Add to cart</button>
+      <button class="remove" id="r4" onclick="r4()">
+      Remove from cart
+    </button>
   </div>
   <div>
     <img src="Airpod.jpeg" alt="Airpod"><br>
     Airpod A3t<br><button onclick="air()">click to see description</button><br>
     <button onclick="add1('AirpodA3t',15000);ok5();" id="add1">₦ 15000 Add to cart</button>
+      <button class="remove" id="r5" onclick="r5()">
+      Remove from cart
+    </button>
   </div>
   <div>
     <img src="Mini fan.jpeg" alt="portable mini fan"><br>
     portable rechargeable mini fan<br><button onclick="fan()">click to see description</button><br>
     <button onclick="add1('portable rechargeable mini fan',25000);ok6();" id="add1">₦ 25000 Add to cart</button>
+      <button class="remove" id="r6" onclick="r6()">
+      Remove from cart
+    </button>
   </div>
   <div>
     <img src="Blender.jpeg" alt="Electric Blender"><br>
     Electric Blender<br><button onclick="blend()">click to see description</button><br>
     <button onclick="add1('Electric Blender',75000);ok7();" id="add1">₦ 75000 Add to cart</button>
+      <button class="remove" id="r7" onclick="r7()">
+      Remove from cart
+    </button>
   </div>
   <div>
     <img src="E-cook.jpeg" alt="Electric cooker"><br>
     Electric cooker<br><button onclick="cook()">click to see description</a></button><br>
     <button onclick="add1('Electric cooker',45000);ok8();" id="add1">₦45000 Add to cart</button>
+      <button class="remove" id="r8" onclick="r8()">
+      Remove from cart
+    </button>
   </div>
   <div>
     <img src="Toy.jpeg" alt="kids toy"><br>
     children toy car<br><button onclick="toy()">click to see description</button><br>
     <button onclick="add1('children toy car',40000);ok9();" id="add1">₦ 40000 Add to cart</button>
+      <button class="remove" id="r9" onclick="r9()">
+      Remove from cart
+    </button>
   </div>
   <div>
     <img src="Vase.jpeg" alt="Flower"><br>
     Flower Vase<br><button onclick="vase()">click to see description</button><br>
     <button onclick="add1('Flower Vase',20000);ok10();" id="add1">₦ 20000 Add to cart</button>
+      <button class="remove" id="r10" onclick="r10()">
+      Remove from cart
+    </button>
   </div>
   <div>
     <img src="E-guitar.png" alt="Electric Guitar"><br>
     Electric Guitar<br><button onclick="guitar()">click to see description</button><br>
     <button onclick="add1('guitar',60000);ok11();" id="add1">₦ 60000 Add to cart</button>
+      <button class="remove" id="r11" onclick="r11()">
+      Remove from cart
+    </button>
   </div>
   <div>
     <img src="Plate set.jpeg" alt="plates and cup"><br>
     Complete set cups and plate<br><button onclick="plate()">click to see description</button><br>
     <button onclick="add1('Complete set cups and plates',40000);ok12();" id="add1">₦ 40000 Add to cart</button>
+      <button class="remove" id="r12" onclick="r12()">
+      Remove from cart
+    </button>
   </div>
   <div>
     <img src="Tv.jpeg" alt="television"><br>
     15.6 inch LCD TV<br><button onclick="tv()">click to see description</button><br>
     <button onclick="add1('15.6 inch LCD TV',120000);ok13();" id="add1">₦ 120,000 Add to cart</button>
+      <button class="remove" id="r13" onclick="r13()" >
+      Remove from cart
+    </button>
   </div>
   <div>
     <img src="S25.jpeg" alt=" samsung mobile phone "><br>
     Samsung s25 ultra<br><button onclick="s25()">click to see description</button><br>
     <button onclick="add1('Samsung s25 ultra',2600000);ok14();" id="add1">₦ 2,600,000 Add to cart</button>
+      <button class="remove" id="r14" onclick="r14()" >
+      Remove from cart
+    </button>
   </div>
   <div>
     <img src="Lapi.jpeg" alt="Laptop"><br>
     Hp Laptop<br><button onclick="lap()">click to see description</button><br>
     <button onclick="add1('Hp Laptop',500000);ok15();" id="add1">₦ 500,000 Add to cart</button>
+      <button class="remove" id="r15" onclick="r15()">
+      Remove from cart
+    </button>
   </div>
   </section>
   <section id="major">
